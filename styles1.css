@@ -1,0 +1,56 @@
+body{
+    text-align:center;
+    background-color: #202124;
+    font-family: 'Playfair Display', serif;;
+}
+
+h1{
+    color:whitesmoke;
+    font-size: 4rem;
+    margin: 5%;
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.gameover{
+    background-color: rgb(225, 100, 100);
+    opacity: 0.5;
+}
+
+.btn{
+    margin: 20px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.red{
+    background-color:red ;
+    border-top-right-radius: 40% 40%;
+}
+
+.green{
+    background-color: green;
+    border-top-left-radius: 40% 40%;
+}
+
+.blue{
+    background-color: blue;
+    border-bottom-right-radius: 40% 40%;
+}
+
+.yellow{
+    background-color: yellow;
+    border-bottom-left-radius: 40% 40%;
+}
+
+.pressed {
+    box-shadow: 0 0 20px rgb(152, 147, 147);
+    background-color: gray;
+}
